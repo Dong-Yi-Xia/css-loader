@@ -1,0 +1,22 @@
+/* global vars class */
+:root {
+  --main-bg-color: #333;
+  --main-text-color: #d4f;
+}
+
+/* Def box1 vars */
+.box1 {
+  --box-bg-color: #d42;
+  --box-padding: 5px 10px;
+  --box-shadow-h: 10px;
+  --box-shadow-v: 20px;
+  --box-shadow-blur: 5px;
+}
+
+/* These box1 vars can only be apply to class of box1 */
+.box1 {
+  background-color: var(--box-bg-color);
+  padding: var(--box-padding);
+  box-shadow: var(--box-shadow-h) var(--box-shadow-v) var(--box-shadow-blur) var(--main-text-color);
+}
+
